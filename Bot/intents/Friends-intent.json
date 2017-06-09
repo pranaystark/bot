@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "3366b45d-0dd3-4681-a8f1-b227b1a58bba",
+      "data": [
+        {
+          "text": "Who are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bffdf71-43dd-4b17-b5fa-86b98d86c70a",
+      "data": [
+        {
+          "text": "do you have any friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a75b347-0b47-4a9e-bc2c-018563352db7",
+      "data": [
+        {
+          "text": "friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d7cd1be-ef9f-41e5-a908-0f03b192b871",
+      "data": [
+        {
+          "text": "do u hav any friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97999301-f842-4884-8b81-0fd099684b26",
+      "data": [
+        {
+          "text": "do you have friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7a05a681-e898-4cd6-9f21-b16db68b7865",
+  "name": "Friends-intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Yeah!",
+            "I try to be friends with everyone",
+            "Yeah! Its You"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

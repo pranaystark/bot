@@ -1,0 +1,19 @@
+{
+  "id": "1b3b9ac5-474e-4c8d-9303-09a5f4622c48",
+  "name": "abuse",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Fuck",
+      "synonyms": [
+        "suck",
+        "dick",
+        "asshole",
+        "dengu",
+        "fuck"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

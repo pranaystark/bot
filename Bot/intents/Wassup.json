@@ -1,0 +1,70 @@
+{
+  "userSays": [
+    {
+      "id": "34a57c8b-5278-4b95-a1c7-a8a0f91b9313",
+      "data": [
+        {
+          "text": "nothing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d1e0fcc-e7f7-462a-b3d3-f3f8af163663",
+      "data": [
+        {
+          "text": "what\u0027s up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5580f9a6-5fec-4719-bfde-634917d0247a",
+      "data": [
+        {
+          "text": "wassup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2ad40ce-b141-4bfe-bb67-fbb674d2c180",
+      "data": [
+        {
+          "text": "Wassup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "05e5ccd4-e124-40d5-a51b-f1c40b817ddf",
+  "name": "Wassup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Nothing much!",
+            "Nm",
+            "Nmm! What About You!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

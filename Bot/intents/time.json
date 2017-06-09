@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "f1cb12b8-a6c5-4fd7-8824-9eafc7ddf28c",
+      "data": [
+        {
+          "text": "time",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "hyderabad",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbf35eb7-7206-4c52-bc35-92821d5a7416",
+      "data": [
+        {
+          "text": "time",
+          "alias": "date-time",
+          "meta": "@sys.date-time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "9e2b034d-b13d-406e-82a1-7112b5802570",
+  "name": "time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ba05b96e-cd1f-4bae-a85b-03e9600b092f",
+  "name": "identity-entity",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "identity",
+      "synonyms": [
+        "your",
+        "u",
+        "ur",
+        "you"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

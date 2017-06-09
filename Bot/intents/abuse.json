@@ -1,0 +1,99 @@
+{
+  "userSays": [
+    {
+      "id": "12138aef-fb3b-412f-9429-471f4549283d",
+      "data": [
+        {
+          "text": "fuck",
+          "alias": "abuse",
+          "meta": "@abuse",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aff91b0e-cedf-4aed-9d18-7a0f8f2a9258",
+      "data": [
+        {
+          "text": "asshole",
+          "alias": "abuse",
+          "meta": "@abuse",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69df8f38-6831-439c-b21d-a1dd7b6e5a9e",
+      "data": [
+        {
+          "text": "suck",
+          "alias": "abuse",
+          "meta": "@abuse",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce7e7043-8902-4c12-aee7-af8d103c10d5",
+      "data": [
+        {
+          "text": "dick",
+          "alias": "abuse",
+          "meta": "@abuse",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c0d5df4-6569-4b45-bd26-c68b7957b265",
+      "data": [
+        {
+          "text": "Fuck you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "af38daad-257c-4f0b-8aef-b3f1106e20c0",
+  "name": "abuse",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@abuse",
+          "name": "abuse",
+          "value": "$abuse",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Who me?",
+            "That not fair.",
+            "I\u0027m sorry about that."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "a754d069-33a7-4621-8346-a2545d312434",
+      "data": [
+        {
+          "text": "Hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06b7d101-587a-4744-b0a9-55125db3f0a5",
+      "data": [
+        {
+          "text": "Oh wow do you think my bro has such talents??"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00001cf4-699b-4b98-87e6-e34d52f97571",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce125665-3898-4ab3-8f4b-39f360631d0e",
+      "data": [
+        {
+          "text": "Hola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8e0022ba-1fe0-459a-b38c-f19af0a0f627",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "455e51d5-8ee9-4673-a9fc-ee6d55e99cc3",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!",
+            "Hi There!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

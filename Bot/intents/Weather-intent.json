@@ -1,0 +1,72 @@
+{
+  "userSays": [
+    {
+      "id": "c9c38239-daaf-47d1-945e-2ec1d08b3f0b",
+      "data": [
+        {
+          "text": "whats the weather in Delhi",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d843bd39-0732-4d88-8170-31b5a2bed6bf",
+      "data": [
+        {
+          "text": "How is the weather in "
+        },
+        {
+          "text": "Hyderabad",
+          "alias": "geo-city",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b96a83c2-568a-4eda-bbf6-2164f701fe72",
+  "name": "Weather-intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "yahooWeatherForecast",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            "Which City?",
+            "Which place would you like to know about?"
+          ],
+          "defaultValue": "sorry plz this does not support Celsius",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Weather should look great!",
+            "Weather should look great today!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "0aefe65e-3929-4594-950a-4c7531bb7135",
+      "data": [
+        {
+          "text": "can u be my friend?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7c4a064-8098-4b80-a820-9b7f34b8d3d6",
+      "data": [
+        {
+          "text": "friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1544c23-9f0a-4256-9660-1c3c69dae8d6",
+      "data": [
+        {
+          "text": "can we be friends?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9594a2f3-fbde-4354-809f-a57b48f444e4",
+  "name": "Friends",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ohh! I always wish that i could be.But..... :(",
+            "Yeah! you\u0027r my Bff",
+            "Sure!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

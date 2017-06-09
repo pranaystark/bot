@@ -1,0 +1,73 @@
+{
+  "description": "bot-agent",
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-new",
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "weather-64579",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "05e5ccd4-e124-40d5-a51b-f1c40b817ddf",
+        "signInRequired": false
+      },
+      {
+        "intentId": "6e57c64a-a973-43fe-8e01-3a5be0948093",
+        "signInRequired": false
+      },
+      {
+        "intentId": "7a05a681-e898-4cd6-9f21-b16db68b7865",
+        "signInRequired": false
+      },
+      {
+        "intentId": "7fbe7dff-0986-4daa-9f39-7c57efd9acc0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "86132ec7-e250-4899-9ca0-5b24ba3fcca8",
+        "signInRequired": false
+      },
+      {
+        "intentId": "93ce5d6c-8e10-4b8d-b351-05f9d9e01c66",
+        "signInRequired": false
+      },
+      {
+        "intentId": "9594a2f3-fbde-4354-809f-a57b48f444e4",
+        "signInRequired": false
+      },
+      {
+        "intentId": "af38daad-257c-4f0b-8aef-b3f1106e20c0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "b96a83c2-568a-4eda-bbf6-2164f701fe72",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Asia/Colombo",
+  "webhook": {
+    "url": "https://pranay-bot.herokuapp.com/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3
+}

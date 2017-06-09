@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "6456c17d-b5dd-4d67-a96e-514c2d1577fc",
+      "data": [
+        {
+          "text": "resistor info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4452cb5b-8aa9-4d6b-8ae6-f83a359e331e",
+      "data": [
+        {
+          "text": "Tell me resistor information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "86132ec7-e250-4899-9ca0-5b24ba3fcca8",
+  "name": "Resistor-intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@resistor-entites",
+          "name": "info",
+          "value": "$resistor",
+          "prompts": [
+            "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.                                                  for more info https://en.wikipedia.org/wiki/Resistor"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.                                                  for more info https://en.wikipedia.org/wiki/Resistor"
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

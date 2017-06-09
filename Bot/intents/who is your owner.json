@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "2f00f028-4179-40cb-85a4-83a04a8dab14",
+      "data": [
+        {
+          "text": "Who\u0027s you creater?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edf952c5-a606-49b6-a1b4-e06d41a3da1d",
+      "data": [
+        {
+          "text": "who is you owner"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17a13d7f-4fd0-4406-afaa-a04fbfbd68e3",
+      "data": [
+        {
+          "text": "who created you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6e57c64a-a973-43fe-8e01-3a5be0948093",
+  "name": "who is your owner",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I was created by Pranay",
+            "I was made by Pranay"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

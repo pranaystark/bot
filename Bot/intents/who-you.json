@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "fc14a357-6094-4478-9248-fadf73dcf892",
+      "data": [
+        {
+          "text": "who ru"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "149ca28d-4ea3-42ca-b477-491439dc4d10",
+      "data": [
+        {
+          "text": "who are "
+        },
+        {
+          "text": "you",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    }
+  ],
+  "id": "7fbe7dff-0986-4daa-9f39-7c57efd9acc0",
+  "name": "who-you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m Jarvis-Bot You can ask me anything like \n\"whats the weather\"\n\"who created you\"\n\"How are you\"\n\"Basic electronics questions like resistor information\"."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
