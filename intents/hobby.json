@@ -1,0 +1,240 @@
+{
+  "userSays": [
+    {
+      "id": "635cf220-8915-4bf9-9dc8-fbcd92243ee2",
+      "data": [
+        {
+          "text": "talk about your hobbies please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "abd2f386-e868-465b-96ac-4f38010e7997",
+      "data": [
+        {
+          "text": "what are your hobbies"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee5ad994-3dd6-47b7-8c96-52df0ed155cf",
+      "data": [
+        {
+          "text": "tell me about your hobbies"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a9d1966-65d2-4aa2-9aa3-9de9b068d07b",
+      "data": [
+        {
+          "text": "what do you do in your free time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d6eb8789-4ee6-4c73-84bb-a55b9acaa73a",
+  "name": "hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "I love music.",
+            "It\u0027s music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "kik",
+          "payload": {
+            "kik": {
+              "type": "link",
+              "url": "https://www.youtube.com/watch?v\u003d4fvo_iOuSck"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "I love music.",
+            "It\u0027s music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music.",
+            ""
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "telegram",
+          "payload": {
+            "telegram": {
+              "text": "[Debussy - Claire de Lune](https://www.youtube.com/watch?v\u003d4fvo_iOuSck).",
+              "parse_mode": "Markdown"
+            }
+          }
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "I love music.",
+            "It\u0027s music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music.",
+            ""
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "slack",
+          "payload": {
+            "slack": {
+              "text": "",
+              "attachments": [
+                {
+                  "title": "Debussy - Claire de Lune",
+                  "title_link": "https://www.youtube.com/watch?v\u003d4fvo_iOuSck"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "I love music.",
+            "It\u0027s music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "audio",
+                "payload": {
+                  "url": "https://examples.api.ai/BobTheFlorist/clair-de-lune-debussy.mp3"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I love music.",
+            "It\u0027s music for sure.",
+            "Music. It inspires me every day.",
+            "My hobby is music."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "🎵"
+        },
+        {
+          "type": 0,
+          "speech": "My favorite composer is Claude Debussy. This is one of my favorite pieces."
+        },
+        {
+          "type": 4,
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "audio",
+                "payload": {
+                  "url": "https://examples.api.ai/BobTheFlorist/clair-de-lune-debussy.mp3"
+                }
+              }
+            },
+            "slack": {
+              "attachments": [
+                {
+                  "title": "Debussy - Claire de Lune",
+                  "title_link": "https://www.youtube.com/watch?v\u003d4fvo_iOuSck"
+                }
+              ]
+            },
+            "telegram": {
+              "text": "[Debussy - Claire de Lune](https://www.youtube.com/watch?v\u003d4fvo_iOuSck).",
+              "parse_mode": "Markdown"
+            },
+            "kik": {
+              "type": "link",
+              "url": "https://www.youtube.com/watch?v\u003d4fvo_iOuSck"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,154 @@
+{
+  "userSays": [
+    {
+      "id": "31045b2b-d98a-49d4-89d0-a4fe44a27266",
+      "data": [
+        {
+          "text": "maybe later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2b17f9b-e382-420f-8a41-df003d96c470",
+      "data": [
+        {
+          "text": "no thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b7d74ee-d35f-49bf-a9dc-02b58ff7dabf",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ecd7f73-7509-47bf-b7fe-e687181ece51",
+      "data": [
+        {
+          "text": "later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c4342ae7-b70f-4aeb-be38-9e9176576bbf",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d71b68fd-3c83-4352-a1cc-118b3ec16cb5",
+  "name": "cv - portfolio - confirmation:no",
+  "auto": true,
+  "contexts": [
+    "see-portfolio"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "cv.confirmation.no",
+      "affectedContexts": [
+        {
+          "name": "see-portfolio",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "😉"
+        },
+        {
+          "type": 0,
+          "speech": [
+            "As you wish.",
+            "Whenever you\u0027re ready.",
+            "It\u0027s beautiful. We can have a look at it whenever you\u0027re ready.",
+            "Okay, just tell me when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "😉"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

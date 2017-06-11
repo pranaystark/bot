@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "75ae94a7-a3b4-4d59-a0a8-6c6acc662ad0",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "513d2ee1-2672-4f41-a8d0-802e32146d99",
+      "data": [
+        {
+          "text": "more results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e6d74db-91f2-4e5a-b15f-138a52e5b22d",
+      "data": [
+        {
+          "text": "anything else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bff11217-2c08-4b67-81b9-2793201fed41",
+      "data": [
+        {
+          "text": "other results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d586743a-bb14-4d9d-9e51-287d2b94eaed",
+      "data": [
+        {
+          "text": "what else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45464ef3-f542-4a7a-94e6-5f47ff3439ac",
+      "data": [
+        {
+          "text": "are there more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33290a74-8c51-40e4-ac5c-8424f2ec7a35",
+      "data": [
+        {
+          "text": "tell me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f91869c4-0ce4-4ba0-9b25-8d949b9da1e1",
+      "data": [
+        {
+          "text": "show me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3dffe19-e473-4c99-b2d3-510d20050322",
+      "data": [
+        {
+          "text": "more information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9bef974f-8005-44de-b8dc-45bef6c467da",
+  "parentId": "18a891d2-9bb0-42b7-9e3e-5a1127acb4e0",
+  "rootParentId": "af38daad-257c-4f0b-8aef-b3f1106e20c0",
+  "name": "abuse - custom - more",
+  "auto": true,
+  "contexts": [
+    "abuse-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "abuse.abuse-custom.abuse-custom-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

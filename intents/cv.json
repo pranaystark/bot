@@ -1,0 +1,204 @@
+{
+  "userSays": [
+    {
+      "id": "d6fe1be2-b80a-476d-99c0-4ed75786f7c1",
+      "data": [
+        {
+          "text": "do you have a CV"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69a5f731-cb62-46b5-943b-1bb94120f8ca",
+      "data": [
+        {
+          "text": "I\u0027d like to take a look at your CV"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36a59bf4-5f61-4544-a142-5806a36218b4",
+      "data": [
+        {
+          "text": "could you show me your curriculum vitae"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8cd47df-2cdd-490c-a61c-72206a7acabb",
+      "data": [
+        {
+          "text": "may I take a look at your resume"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad844eb0-ab44-4a74-8051-e0edc7552a17",
+      "data": [
+        {
+          "text": "show me your curriculum vitae"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "156901b7-63bc-48ff-b0fc-38513108ecf5",
+      "data": [
+        {
+          "text": "show me your CV"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8245d67f-8938-405f-b35e-a57d432b3f76",
+  "name": "cv",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cv",
+      "affectedContexts": [
+        {
+          "name": "see-portfolio",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "kik",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/CV.jpg"
+        },
+        {
+          "type": 2,
+          "platform": "kik",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "telegram",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/CV.jpg"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "slack",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/CV.jpg"
+        },
+        {
+          "type": 2,
+          "platform": "slack",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "https://docs.google.com/document/d/1ivuzvrn3eEOrk5S0aEk8Khq2dHjuNzcBTpBMmdRszns/edit?usp\u003dsharing\nMy resume"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Here you are.",
+            "Here you go.",
+            "Sure."
+          ]
+        },
+        {
+          "type": 3,
+          "imageUrl": "https://docs.google.com/document/d/1ivuzvrn3eEOrk5S0aEk8Khq2dHjuNzcBTpBMmdRszns/edit?usp\u003dsharing"
+        },
+        {
+          "type": 2,
+          "title": "Would you like to see my portfolio as well?",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "facebook"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

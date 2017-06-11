@@ -1,0 +1,232 @@
+{
+  "userSays": [
+    {
+      "id": "32e6c49c-b513-48d2-a6a9-361dda2f0a1c",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76027888-d6e5-4401-a192-0358f7fc80ad",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66f06462-ff90-4269-842c-5a3ca76e3029",
+      "data": [
+        {
+          "text": "all right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b98b8267-3740-4068-a70a-2b5c6dd61877",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edbc12e9-e789-4828-b4b6-8a93d842a2cb",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f87cf751-29ab-415b-b2d7-2781edb03d7e",
+  "name": "cv - portfolio - confirmation:yes",
+  "auto": true,
+  "contexts": [
+    "see-portfolio"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "cv.confirmation.yes",
+      "affectedContexts": [
+        {
+          "name": "confirmation",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "see-portfolio",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "kik",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you\u0027ll like them!"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Sunny Day",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_1.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Charmed",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_2.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "kik",
+          "title": "Fabulous You",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_3.jpg",
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you\u0027ll like them!"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Sunny Day",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_1.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Charmed",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_2.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "title": "Fabulous You",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_3.jpg",
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "platform": "slack",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you\u0027ll like them!"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Sunny Day",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_1.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Charmed",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_2.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "Fabulous You",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_3.jpg",
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you\u0027ll like them!"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Sunny Day",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_1.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Charmed",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_2.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Fabulous You",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_3.jpg",
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Here! Take a look at my latest works.",
+            "Here are my latest works, take a look!",
+            "Here are my latest pieces, hope you\u0027ll like them!"
+          ]
+        },
+        {
+          "type": 1,
+          "title": "Sunny Day",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_1.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "title": "Charmed",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_2.jpg",
+          "buttons": []
+        },
+        {
+          "type": 1,
+          "title": "Fabulous You",
+          "imageUrl": "https://examples.api.ai/BobTheFlorist/Flowers_3.jpg",
+          "buttons": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

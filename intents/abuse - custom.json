@@ -1,0 +1,36 @@
+{
+  "userSays": [],
+  "id": "18a891d2-9bb0-42b7-9e3e-5a1127acb4e0",
+  "parentId": "af38daad-257c-4f0b-8aef-b3f1106e20c0",
+  "rootParentId": "af38daad-257c-4f0b-8aef-b3f1106e20c0",
+  "name": "abuse - custom",
+  "auto": true,
+  "contexts": [
+    "abuse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "abuse.abuse-custom",
+      "affectedContexts": [
+        {
+          "name": "abuse-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
